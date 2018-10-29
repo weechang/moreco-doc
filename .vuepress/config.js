@@ -34,6 +34,7 @@ module.exports = {
                             }
                         ]
                     },
+
                 ],
                 sidebar: {
                     "/guide/": genSidebarConfig("指南")
