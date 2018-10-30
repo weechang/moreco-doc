@@ -6,7 +6,7 @@ module.exports = {
         "/": {
             lang: "zh-CN",
             title: "moreco",
-            description: "moreco doc"
+            description: "Java Web全生命周期解决方案"
         }
     },
     head: [["link", {rel: "icon", href: `/favicon.ico`}]],
@@ -31,6 +31,15 @@ module.exports = {
                             {
                                 text: "简体中文",
                                 link: "/"
+                            }
+                        ]
+                    },
+                    {
+                        text: "生态",
+                        items: [
+                            {
+                                text: "moreco-view",
+                                link: "https://github.com/weechang/moreco-view"
                             }
                         ]
                     },
