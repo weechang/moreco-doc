@@ -67,10 +67,10 @@ function genSidebarConfig(title) {
         {
             title: "开发指南",
             collapsable: false,
-            children: ["message","oss","monitor"]
+            children: ["message","oss","monitor","rbac","security","ops"]
         },
         {
-            title: "架构指南",
+            title: "架构图谱",
             collapsable: false,
             children: ["spring-boot","spring-cloud","axon"]
         },
