@@ -1,5 +1,5 @@
 cd docs/
-git config user.name "weechang93"
+git config user.name "weechang"
 git config user.email "zhangwei_sc@foxmail.com"
 git add -A
 git commit -m "deploy at `date +\"%Y-%m-%d %H:%M:%S\"`"
