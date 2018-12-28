@@ -38,7 +38,11 @@ module.exports = {
                         text: "生态",
                         items: [
                             {
-                                text: "moreco-view",
+                                text: "在线演示",
+                                link: "https://moreco.weechang.xyz"
+                            },
+                            {
+                                text: "前端项目",
                                 link: "https://github.com/weechang/moreco-view"
                             }
                         ]
@@ -55,6 +59,21 @@ module.exports = {
 
 function genSidebarConfig(title) {
     return [
+        {
+            title: "项目简介",
+            collapsable: false,
+            children: [""]
+        },
+        {
+            title: "开发指南",
+            collapsable: false,
+            children: ["message","oss","monitor"]
+        },
+        {
+            title: "架构指南",
+            collapsable: false,
+            children: ["spring-boot","spring-cloud","axon"]
+        },
         {
             title: "FAQ",
             collapsable: false,
