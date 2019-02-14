@@ -65,19 +65,37 @@ function genSidebarConfig(title) {
             children: [""]
         },
         {
-            title: "开发指南",
+            title: "模块介绍",
             collapsable: false,
-            children: ["message","oss","monitor","rbac","security","ops"]
+            children: [
+                "core",     // 核心
+                "data",     // 数据
+                "component",// 组件
+                "security", // 安全验证
+                "starter",  // 启动
+                "cloud",    // 微服务
+                "monitor",  // 监控
+                "demo",     // demo
+            ]
         },
         {
-            title: "架构图谱",
+            title: "快速构建",
             collapsable: false,
-            children: ["spring-boot","spring-cloud","axon"]
+            children: ["build"]
         },
+        // {
+        //     title: "架构图谱",
+        //     collapsable: false,
+        //     children: ["security"]
+        // },
         {
             title: "FAQ",
             collapsable: false,
             children: ["faq"]
         }
     ];
+}
+
+function getSubMenuConfig(title) {
+
 }

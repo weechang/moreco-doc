@@ -1,4 +1,4 @@
-# 系统监控
+# 监控
 
 ::: tip 
 系统监控因考虑到兼容大体量系统的问题，所以采取 Elasticsearch 作为存储服务器。可能后期可能会考虑小企业的维护成本，添加MongoDB的支持。
@@ -22,8 +22,8 @@
 
 ```xml
 <dependency>
-    <groupId>io.github.weechang</groupId>
-    <artifactId>moreco-monitor-sdk</artifactId>
+    <groupId>xyz.weechang</groupId>
+    <artifactId>moreco-monitor-agent</artifactId>
     <version>${mereco.version}</version>
 </dependency>
 ```                   

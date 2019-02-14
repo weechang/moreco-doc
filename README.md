@@ -16,7 +16,7 @@ features:
 
 ```xml
 <dependency>
-    <groupId>io.github.weechang</groupId>
+    <groupId>xyz.moreco</groupId>
     <artifactId>moreco</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 </dependency>
