@@ -91,7 +91,10 @@ function genSidebarConfig(title) {
         {
             title: "FAQ",
             collapsable: false,
-            children: ["faq"]
+            children: [
+                "faq",
+                "donate"
+            ]
         }
     ];
 }
