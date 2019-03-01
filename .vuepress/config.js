@@ -93,6 +93,7 @@ function genSidebarConfig(title) {
             collapsable: false,
             children: [
                 "faq",
+                "changelog",
                 "donate"
             ]
         }
